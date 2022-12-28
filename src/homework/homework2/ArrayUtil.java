@@ -34,5 +34,50 @@ public class ArrayUtil {
                 min = myArray[i];
         }
         System.out.println("min " + min);
+        System.out.println();
+        for (int i = 0; i < myArray.length; i++) {
+            if (myArray[i] % 2 == 0) {
+                System.out.println("զույգ թիվ է " + myArray[i]);
+            } else {
+                System.out.println("կենտ թիվ է " + myArray[i]);
+            }
+        }
+        System.out.println();
+        System.out.println("զույգ թվեր ");
+        for (int i = 0; i < myArray.length; i++) {
+            if (myArray[i] % 2 == 0) {
+                System.out.print(myArray[i] + ", ");
+            }
+        }
+        System.out.println();
+        System.out.println("Կենտ թվեր");
+        for (int i = 0; i < myArray.length; i++) {
+            if (myArray[i] % 2 != 0) {
+                System.out.print(myArray[i] + ", ");
+            }
+        }
+        System.out.println();
+        int evenNumbers = 0;
+        for (int i = 0; i < myArray.length; i++) {
+            if (myArray[i] % 2 == 0) {
+                evenNumbers++;
+            }
+        }
+        System.out.println("Even Numbers " + evenNumbers);
+        int notEven = 0;
+        for (int i = 0; i < myArray.length; i++) {
+            if (myArray[i] % 2 != 0)
+                notEven++;
+        }
+        System.out.println("Not Even " + notEven);
+        int totalAmount = 0;
+        for (int i = 0; i < myArray.length; i++) {
+            totalAmount += myArray[i];
+        }
+        System.out.println("Total Amount " + totalAmount);
+        System.out.println("the arithmetic mean " + totalAmount / myArray.length);
+        System.out.println(myArray[0]);
+        int i = myArray.length - 1;
+        System.out.println(myArray[i]);
     }
 }
