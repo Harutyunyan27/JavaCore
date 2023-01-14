@@ -2,14 +2,14 @@ package homework.homework6;
 
 public class ArrayUtil {
 
-    void AllNumbers(int[] array) {
+    void allNumbers(int[] array) {
         for (int i = 0; i < array.length; i++) {
             System.out.print(array[i] + " ");
         }
         System.out.println();
     }
 
-    void Max(int[] array) {
+    void max(int[] array) {
         int max = array[0];
         for (int i = 0; i < array.length; i++) {
             if (array[i] > max)
@@ -18,7 +18,7 @@ public class ArrayUtil {
         System.out.println("max " + max);
     }
 
-    void Min(int[] array) {
+    void min(int[] array) {
         int min = array[0];
         for (int i = 0; i < array.length; i++) {
             if (array[i] < min)
@@ -27,7 +27,7 @@ public class ArrayUtil {
         } System.out.println("min " + min);
     }
 
-    void EvenNumbers(int[] array) {
+    void evenNumbers(int[] array) {
         System.out.println("զույգ թվեր ");
         for (int i = 0; i < array.length; i++) {
             if (array[i] % 2 == 0)
@@ -36,7 +36,7 @@ public class ArrayUtil {
 
     }
 
-    void Odd(int[] array) {
+    void odd(int[] array) {
         System.out.println("Կենտ թվեր ");
         for (int i = 0; i < array.length; i++) {
             if (array[i] % 2 != 0) {
@@ -45,7 +45,7 @@ public class ArrayUtil {
         }
     }
 
-    void NumberOfEven(int[] array) {
+    void numberOfEven(int[] array) {
         int EvenNumbers = 0;
         for (int i = 0; i < array.length; i++) {
             if (array[i] % 2 == 0) {
@@ -55,7 +55,7 @@ public class ArrayUtil {
         System.out.println("Զույգերի քանակը " + EvenNumbers);
     }
 
-    void NumberOfOdd(int[] array) {
+    void numberOfOdd(int[] array) {
         int odd = 0;
         for (int i = 0; i < array.length; i++) {
             if (array[i] % 2 != 0)
@@ -65,7 +65,7 @@ public class ArrayUtil {
 
     }
 
-    void TotalAmount(int[] array) {
+    void totalAmount(int[] array) {
         int TotalAmount = 0;
         for (int i = 0; i < array.length; i++) {
             TotalAmount += array[i];
@@ -74,7 +74,7 @@ public class ArrayUtil {
         System.out.println("Միջին թվաբանականը " + TotalAmount / array.length);
     }
 
-    void StartingAndLastDigits(int[] array) {
+    void startingAndLastDigits(int[] array) {
         System.out.println(array[0]);
         int i = array.length - 1;
         System.out.println(array[i]);
