@@ -2,7 +2,7 @@ package homework.homework7;
 
 public class Calculator {
     double plus(double a, double b) {
-        return a + b;
+        return a +  b;
     }
 
     double minus(double a, double b) {
@@ -14,9 +14,8 @@ public class Calculator {
     }
 
     double divide(double a, double b) {
-        if (a / b == 0) {
-            System.out.println("* ");
-            return -1;
+        if (b == 0) {
+            System.out.println("Number is not divisible by 0 ");
         }
         return a / b;
     }
