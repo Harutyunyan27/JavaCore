@@ -19,6 +19,13 @@ public class DynamicArrayDemo {
         myArray.add(4);
         myArray.add(5);
         myArray.print();
+        myArray.deleteByIndex(7);
+        myArray.print();
+        myArray.set(4, 888);
+        myArray.print();
+        myArray.add(10, 777);
+        myArray.print();
+        System.out.println("\n" + myArray.getIndexByValue(2));
 
     }
 }
