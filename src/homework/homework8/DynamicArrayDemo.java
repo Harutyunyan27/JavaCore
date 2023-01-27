@@ -26,6 +26,6 @@ public class DynamicArrayDemo {
         myArray.add(10, 777);
         myArray.print();
         System.out.println("\n" + myArray.getIndexByValue(2));
-
+        System.out.println(myArray.exists(27));
     }
 }
