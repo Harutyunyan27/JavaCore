@@ -18,10 +18,6 @@ public class Employee {
         this.company = company;
     }
 
-    public Collection<Object> getname() {
-        return null;
-    }
-
     public String getName() {
         return name;
     }
